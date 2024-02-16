@@ -1,0 +1,29 @@
+/* Asegúrate de que el body y html ocupen todo el alto disponible */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Organiza los hijos en una columna */
+    justify-content: center; /* Centra los hijos verticalmente */
+    align-items: center; /* Centra los hijos horizontalmente */
+}
+
+/* Estilos para el contenedor que usa Flexbox */
+/* Ajusta el selector si tu contenedor tiene un id o clase específica */
+div[ng-controller="ControladorFortuna"] {
+    display: flex;
+    flex-direction: column; /* Organiza todo en una columna */
+    justify-content: center; /* Centra todo verticalmente :v */
+    align-items: center; /* Centra horizontalmente */
+    height: 100%; /* Ocupa todo el alto disponible */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.boton-volver, button {
+    margin-top: 20px; /* Añade espacio arriba del botón */
+    
+}
